@@ -108,13 +108,13 @@ body{
 
 .banner-info a{
     color: white;
-    font-size: 24px;
+    font-size: 19px;
     background-color:#C31616;
     display: flex;
     width:px;
-    height:60px ;
+    height: 45px;
     border-radius: 10px;
-    margin-inline:auto;
+    margin-inline:130px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -135,5 +135,60 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0 ;
+
+}
+
+
+.produtos{
+    background:#1E1C21;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+.container{
+    max-width: 1200px;
+   
+    
+}
+
+.card{
+    background: #1E1C21;
+    max-width: 250px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(to bottom, #444444, #1E1C21);
+    font-size: 1.3rem;
+}
+
+.card .btn{
+    
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-family:"TitilliumWeb";
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+.card-price{
+    font-family:"TitilliumWeb";
+    font-size: 2.4rem;
+
+}
+
+.ofertas{
+    color: white;
+    font-size:"Roboto-Medium";
+    font-size: 24px;
 
 }
