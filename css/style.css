@@ -196,3 +196,30 @@ body{
 
 }
 
+.banner-segundo{
+ width: 100%;
+ height: auto;
+ background:#1E1C21;
+ background-repeat: no-repeat;
+ justify-items: center;
+
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}       
+
+.imagem-banner{
+    width: 100%;
+
+}
+
+.footer{
+    width: auto;
+    height: 300px;
+    background-color:black;
+    
+
+}
