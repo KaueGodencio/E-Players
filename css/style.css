@@ -76,7 +76,7 @@ body{
     justify-content:flex-end;
     align-items: center;
     height: 100%;
-    height: 100%;
+    
     
 }
 
@@ -196,30 +196,74 @@ body{
 
 }
 
-.banner-segundo{
- width: 100%;
- height: auto;
- background:#1E1C21;
- background-repeat: no-repeat;
- justify-items: center;
-
-}
-
-.fundo{
+.banner-segundo-box{
     display: flex;
-    justify-content: center;
-    width: 100%;
-}       
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
 
-.imagem-banner{
-    width: 100%;
 
 }
 
-.footer{
-    width: auto;
-    height: 300px;
-    background-color:black;
+.banner-segundo{
+    width: 100%;
+    height: 470px;
+    background: black;
+    background-image: url(../img/fundo-sobre.png);
+    background-repeat: no-repeat;
+  
+} 
+
+
+.banner-dois-info{
+    width: 46%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: baseline;
+    color: white;
+    margin-left: 8%;
     
+    
+}
+
+
+
+.banner-dois-info h2{
+    font-family: "TitilliumWeb";
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+
 
 }
+
+
+.heroi{
+    max-width: 450px;
+    
+    
+}
+
+.rodape{
+    width: 100%;
+    height: 300px;
+    background: black;
+
+  }
+
+  .links{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    
+  }
+
+  .links h2{
+    font-family: "TitilliumWeb";
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: white;
+
+
+  }
