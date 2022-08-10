@@ -1,53 +1,57 @@
 /*IMPORTANDO FONT*/
-@font-face{
-     font-family:"Roboto-Regular";
-      src:url(../fonts/Roboto/Roboto-Regular.ttf);}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
 
-@font-face{
-        font-family:"Roboto-Medium";
-        src:url(../fonts/Roboto/Roboto-Medium.ttf);}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
 
-@font-face{
-        font-family:"TitilliumWeb";
-        src:url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);}        
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
 
 /* RETIRANDO AS MARGINS E BORDA DO NAVEGADOR*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*  RESET NAVEGADOR*/
 
-body{
-    font-family:"Roboto-Regular";
+body {
+    font-family: "Roboto-Regular";
 
 }
 
 /* INICIO CSS CABECALHO */
-.cabecalho{
+.cabecalho {
     background-color: #1E1C21;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.container-grid{
-     max-width:1200px;
-     margin: 0 auto;
-     display: flex;
-     height: 100%;
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu-principal{
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
+.menu-principal {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-principal a {
@@ -57,103 +61,107 @@ body{
     padding: 20px 15px 20px 15px;
 
 }
+
 /* FIM CSS CEBECALHO*/
 
 /* ******* INICIO BANNER CSS  MAIN*************/
 
 
-.banner{
-    width:auto;
-    height: 610px;
-    background:#C31616;
+.banner {
+    width: auto;
+    height: 515px;
+    background: #C31616;
+    background-size: 100% 100%;
     background-image: url(../img/banner_pilotos.png);
     background-repeat: no-repeat
-    
+
 }
 
 .banner-box {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
-    
-    
+
+
 }
 
-.banner-info{
+.banner-info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    width:auto ;
-    height:auto;
+    width: auto;
+    height: auto;
     margin-top: -120px
 }
 
-.banner-info h2{ 
+.banner-info h2 {
     margin-top: 70px;
     font-family: "TitilliumWeb";
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     margin-top: 20px;
-   
+
 }
 
 .banner-info p {
-    font-size:"Roboto-Medium";
+    font-size: "Roboto-Medium";
     text-align: center;
     font-size: 24px;
     margin-top: auto;
 }
 
-.banner-info a{
+.banner-info a {
+
     color: white;
     font-size: 19px;
-    background-color:#C31616;
+    background-color: #C31616;
     display: flex;
-    width:px;
+
     height: 45px;
     border-radius: 10px;
-    margin-inline:130px;
+    margin-inline: 130px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 30px;
-   
-}
-/* FIM BANNER */ 
 
-.jogos{
+}
+
+/* FIM BANNER */
+
+.jogos {
     background-color: #1E1C21;
-    
+
 }
 
-.jogos-patrocinio{
+.jogos-patrocinio {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 ;
+    padding: 10px 0;
 
 }
 
 
-.produtos{
-    background:#1E1C21;
+.produtos {
+    background: #1E1C21;
     padding-top: 30px;
     padding-bottom: 30px;
 
 }
 
 
-.container{
+.container {
     max-width: 1200px;
-   
-    
+
+
 }
 
-.card{
+.card {
     background: #1E1C21;
     max-width: 250px;
     border: none;
@@ -165,8 +173,8 @@ body{
 
 }
 
-.card .btn{
-    
+.card .btn {
+
     width: 100%;
     margin-top: 20px;
     padding-top: 10px;
@@ -176,27 +184,27 @@ body{
 }
 
 .card-title {
-    font-family:"TitilliumWeb";
+    font-family: "TitilliumWeb";
     font-size: 1.4rem;
     text-transform: uppercase;
 
 }
 
-.card-price{
-    font-family:"TitilliumWeb";
+.card-price {
+    font-family: "TitilliumWeb";
     font-size: 2.4rem;
-   
+
 
 }
 
-.ofertas{
+.ofertas {
     color: white;
-    font-size:"Roboto-Medium";
+    font-size: "Roboto-Medium";
     font-size: 24px;
 
 }
 
-.banner-segundo-box{
+.banner-segundo-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,30 +213,31 @@ body{
 
 }
 
-.banner-segundo{
+.banner-segundo {
     width: 100%;
     height: 470px;
     background: black;
     background-image: url(../img/fundo-sobre.png);
     background-repeat: no-repeat;
-  
-} 
+    background-size: 100% 100%;
+
+}
 
 
-.banner-dois-info{
+.banner-dois-info {
     width: 46%;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     justify-content: baseline;
     color: white;
     margin-left: 8%;
-    
-    
+
+
 }
 
 
 
-.banner-dois-info h2{
+.banner-dois-info h2 {
     font-family: "TitilliumWeb";
     font-size: 30px;
     margin-left: 10%;
@@ -238,27 +247,27 @@ body{
 }
 
 
-.heroi{
+.heroi {
     max-width: 450px;
-    
-    
+
+
 }
 
-.rodape{
+.rodape {
     width: 100%;
     height: 300px;
     background: black;
 
-  }
+}
 
-  .links{
+.links {
     width: 40%;
     height: auto;
     align-items: center;
-    
-  }
 
-  .links h2{
+}
+
+.links h2 {
     font-family: "TitilliumWeb";
     font-size: 30px;
     margin-left: 10%;
@@ -266,4 +275,49 @@ body{
     color: white;
 
 
-  }
+}
+
+
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    
+
+
+}
+
+.links-uteis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+    color: white;
+    decoration: none;
+    font-size: 14px;
+}
+
+.nav li {
+    list-style-type: disc;
+    color: white;
+    decoration: none;
+    font-size: 14px;
+
+}
+
+.dados-contatos{
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    
+.dados-contatos{
+    display: flex;
+    justify-content: space-between;
+
+}
+   
