@@ -68,12 +68,11 @@ body {
 
 
 .banner {
-    width: auto;
-    height: 515px;
-    background: #C31616;
-    background-size: 100% 100%;
+    width: 100%;
+    height: 610px;
+    background-color: #C31616;
     background-image: url(../img/banner_pilotos.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 
 }
 
@@ -133,6 +132,7 @@ body {
 
 /* FIM BANNER */
 
+/* INICIO PATROCINIO */
 .jogos {
     background-color: #1E1C21;
 
@@ -146,7 +146,9 @@ body {
 
 }
 
+/* FIM PATROCIONIO */
 
+/* INICIO PRODUTOS (BOOTSTRAP) */
 .produtos {
     background: #1E1C21;
     padding-top: 30px;
@@ -164,6 +166,7 @@ body {
 .card {
     background: #1E1C21;
     max-width: 250px;
+    margin-top: 20px;
     border: none;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.8);
@@ -204,6 +207,11 @@ body {
 
 }
 
+
+/* FIM DOS PRODUTOS (BOOTSTRAP) */
+
+/* INICIO  SEGUNDO BANNER  */
+
 .banner-segundo-box {
     display: flex;
     justify-content: space-between;
@@ -215,7 +223,7 @@ body {
 
 .banner-segundo {
     width: 100%;
-    height: 470px;
+    height: 100%;
     background: black;
     background-image: url(../img/fundo-sobre.png);
     background-repeat: no-repeat;
@@ -252,6 +260,11 @@ body {
 
 
 }
+
+
+/* SEGUNDO BANNER  */
+
+/* INICIO RODAPE/FOOTER */
 
 .rodape {
     width: 100%;
@@ -299,6 +312,7 @@ body {
     font-size: 14px;
 }
 
+
 .nav li {
     list-style-type: disc;
     color: white;
@@ -320,4 +334,32 @@ body {
     justify-content: space-between;
 
 }
-   
+   /* FIM RODAPE/FOOTER */
+
+      /* INICIO MIDIA SCREEN PATROCINIO */
+
+   @media screen and (max-width: 767px) {
+       .jogos {
+           display: none;
+        }
+    }
+     
+
+
+
+
+
+
+
+
+
+    
+        
+    @media screen and (max-width: 767px) {
+        .heroi {
+            display: none;
+        }
+    }
+    
+    
+    /* FIM MIDIA SCREEN SEGUNDO BANNER */
