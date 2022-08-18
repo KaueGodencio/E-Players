@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .menu-principal {
@@ -217,8 +218,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%
-
-
 }
 
 .banner-segundo {
@@ -297,7 +296,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 5px;
-    
+
 
 
 }
@@ -321,45 +320,76 @@ body {
 
 }
 
-.dados-contatos{
+.dados-contatos {
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-    
-.dados-contatos{
+
+.dados-contatos {
     display: flex;
     justify-content: space-between;
 
 }
-   /* FIM RODAPE/FOOTER */
 
-      /* INICIO MIDIA SCREEN PATROCINIO */
+/* FIM RODAPE/FOOTER */
 
-   @media screen and (max-width: 767px) {
-       .jogos {
-           display: none;
-        }
+/* INICIO MIDIA SCREEN PATROCINIO */
+/* MIDIA CELULAR */
+@media screen and (max-width: 767px) {
+    .jogos {
+        display: none;
     }
-     
 
+    .header-flex {
+        margin-top: 10px;
+        height: 60px;
 
-
-
-
-
-
-
-
-    
-        
-    @media screen and (max-width: 767px) {
-        .heroi {
-            display: none;
-        }
     }
-    
-    
-    /* FIM MIDIA SCREEN SEGUNDO BANNER */
+
+    .cabecalho {
+        padding:20px 25px;
+       
+
+    }
+    .logotipo{
+        width: 210px;
+
+
+
+    }
+    .menu-bars {
+        width: 45px;
+        color: white;
+        width: 35px;
+
+
+
+    }
+
+    .menu-principal {
+
+        display: none;
+    }
+
+    .heroi {
+        display: none;
+    }
+}
+
+
+/* midia desktop */
+@media screen and (min-width: 767px) {
+.menu-bars{
+    display:none;
+
+
+}
+   
+   
+}
+
+
+/* FIM MIDIA SCREEN SEGUNDO BANNER */
