@@ -251,11 +251,13 @@ body {
 
 
 
+
 .banner-dois-info h2 {
     font-family: "TitilliumWeb";
     font-size: 30px;
     margin-left: 10%;
     margin-top: 20px;
+
 
 
 }
@@ -272,15 +274,17 @@ body {
 
 /* INICIO RODAPE/FOOTER */
 
-.footer{
+.footer {
     background: black;
 
 
 }
 
 .rodape {
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 270px;
+    height: auto;
     background: black;
 
 }
@@ -292,19 +296,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 20px;
     text-decoration: none;
-    width: 198px;
+    width: 200px;
     height: 100%;
-  
+
 
 }
 
 .logo-footer {
     display: flex;
+    margin-top: 38px;
     align-items: center;
     width: 299px;
     height: 100%;
-   
+
 
 }
 
@@ -312,6 +318,7 @@ body {
 .dados-contatos {
     width: auto;
     height: 100%;
+    margin-top: 20px;
 
 
 }
@@ -320,7 +327,7 @@ body {
     flex-direction: row;
     width: 289px;
     height: 100%;
-   
+
 
 
 
@@ -397,6 +404,16 @@ body {
         display: none;
     }
 
+    .banner-dois-info {
+        margin-left: 28%;
+
+
+
+    }
+
+
+
+
     .header-flex {
         margin-top: 10px;
         height: 60px;
@@ -424,14 +441,22 @@ body {
     }
 
 
-    .navbarShow{
+    .navbarShow {
         left: 0 !important;
 
 
     }
 
-    .menu-principal{
-        position: fixed;  /* VIEWPORT/JANELA */
+    .logo-footer{
+        display: none;
+
+
+
+    }
+
+    .menu-principal {
+        position: fixed;
+        /* VIEWPORT/JANELA */
         top: 0;
         left: -285px;
         z-index: 1;
@@ -440,19 +465,19 @@ body {
         background: #1E1C21;
         flex-direction: column;
         justify-content: center;
-      
-        
+
+
     }
-    
-        
-    .menu-principal a{
+
+
+    .menu-principal a {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
         height: 40%;
         margin-bottom: 0px;
-       /*  background-color: rgba(255, 255, 255, 0.8); */
+        /*  background-color: rgba(255, 255, 255, 0.8); */
 
 
 
@@ -461,15 +486,15 @@ body {
 
     .heroi {
         display: none;
-        text-align: center;
-
-    }
-
-    
-
 
 
     }
+
+
+
+
+
+}
 
 
 

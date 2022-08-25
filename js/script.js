@@ -1,9 +1,9 @@
 function mostraEscondeMenu( ){
-    let navbar = document.getElementById.toggle("navbarShow");
+    let navbar = document.getElementById("menu-principal");
 
 
 
 
 
     
-}
+} 
