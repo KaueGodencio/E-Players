@@ -81,6 +81,7 @@ body {
     background-color: #C31616;
     background-image: url(../img/banner_pilotos.png);
     background-repeat: no-repeat;
+    
 
 }
 
@@ -306,7 +307,7 @@ body {
 
 .logo-footer {
     display: flex;
-    margin-top: 38px;
+    margin-top: 105px;
     align-items: center;
     width: 299px;
     height: 100%;
@@ -400,12 +401,25 @@ body {
 /* INICIO MIDIA SCREEN PATROCINIO */
 /* MIDIA CELULAR */
 @media screen and (max-width: 767px) {
+
+    .banner-box {
+        justify-content: center;
+        background: rgb(30, 28, 33, 0.7);
+
+
+    }
+
+
+
+
     .jogos {
         display: none;
     }
 
     .banner-dois-info {
-        margin-left: 28%;
+        margin-left: 20%;
+        width: 385px;
+        height: 40%;
 
 
 
@@ -447,7 +461,7 @@ body {
 
     }
 
-    .logo-footer{
+    .logo-footer {
         display: none;
 
 
@@ -460,10 +474,11 @@ body {
         top: 0;
         left: -285px;
         z-index: 1;
-        width: 60%;
+        width: 45%;
         height: 100%;
-        background: #1E1C21;
+        background: rgb(30, 28, 33, 0.9);
         flex-direction: column;
+        text-align: left;
         justify-content: center;
 
 
@@ -472,11 +487,14 @@ body {
 
     .menu-principal a {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 80%;
-        height: 40%;
-        margin-bottom: 0px;
+        height: 10%;
+        font-size: 1.4rem;
+        border-left: 3px dotted white;
+        margin-left: 16px;
+        margin-bottom: 25px;
         /*  background-color: rgba(255, 255, 255, 0.8); */
 
 
@@ -495,6 +513,7 @@ body {
 
 
 }
+
 
 
 
