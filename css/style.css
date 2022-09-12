@@ -193,6 +193,20 @@ body {
     padding-top: 10px;
     text-transform: uppercase;
     border-radius: 10px;
+    
+
+}
+
+.btn-danger{
+    background-color: #C31616;
+    border: 1px solid #C31616;
+   
+}
+
+.btn-danger:hover{
+    background-color: #a31717;
+    border: 1px solid #C31616;
+
 }
 
 .card-title {
@@ -223,7 +237,7 @@ body {
 
 .banner-segundo-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%
 }
@@ -240,11 +254,13 @@ body {
 
 
 .banner-dois-info {
-    width: 46%;
+    width: 385px;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     color: white;
+    text-align: center;
     margin-left: 8%;
 
 
@@ -290,7 +306,11 @@ body {
 
 }
 
+.navbar-light{
+    margin-left: 24px;
 
+
+}
 
 
 .caixa-link {
@@ -376,7 +396,7 @@ body {
 .nav li {
     list-style-type: disc;
     color: white;
-    decoration: none;
+    text-decoration: none;
     font-size: 14px;
 
 }
@@ -417,7 +437,7 @@ body {
     }
 
     .banner-dois-info {
-        margin-left: 20%;
+        margin-left: 8%;
         width: 385px;
         height: 40%;
 
