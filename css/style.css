@@ -270,10 +270,9 @@ body {
 
 
 .banner-dois-info h2 {
-    font-family: "TitilliumWeb";
-    font-size: 30px;
-    margin-left: 10%;
     margin-top: 20px;
+    font-family: "TitilliumWeb";
+    font-size: 30px
 
 
 
@@ -385,7 +384,7 @@ body {
     align-items: center;
     width: 77%;
     color: white;
-    decoration: none;
+    direction: none;
     font-size: 15px;
 }
 
@@ -492,9 +491,9 @@ body {
         position: fixed;
         /* VIEWPORT/JANELA */
         top: 0;
-        left: -285px;
+        left: -330px;
         z-index: 1;
-        width: 45%;
+        width: 75%;
         height: 100%;
         background: rgb(30, 28, 33, 0.9);
         flex-direction: column;
@@ -511,7 +510,7 @@ body {
         align-items: center;
         width: 80%;
         height: 10%;
-        font-size: 1.4rem;
+        
         border-left: 3px dotted white;
         margin-left: 16px;
         margin-bottom: 25px;
@@ -526,20 +525,107 @@ body {
         display: none;
 
 
+     }
+ }  
+/* MIDIA TABLET */
+ @media screen and (max-width: 991px) {
+
+    .banner-box {
+        justify-content: center;
+        background: rgb(30, 28, 33, 0.7);
+
+
+    }
+  
+
+    .banner-dois-info {
+        margin-left: 8%;
+        width: 385px;
+        height: 40%;
+
+
+
     }
 
 
 
 
+    .header-flex {
+        margin-top: 10px;
+        height: 60px;
 
-}
+    }
+
+    .cabecalho {
+        padding: 20px 25px;
+
+
+    }
+
+    .logotipo {
+        width: 210px;
+
+
+
+    }
+
+    .menu-bars {
+        width: 45px;
+        color: white;
+        width: 35px;
+
+    }
+
+
+    .navbarShow {
+        left: 0 !important;
+
+
+    }
+
+    .logo-footer {
+        display: none;
+
+
+
+    }
+
+    .menu-principal a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        height: 10%;
+        font-size:1.5rem;
+        border-left: 3px dotted white;
+        margin-left: 20px;
+        margin-bottom: 25px;
+        /*  background-color: rgba(255, 255, 255, 0.8); */
+
+
+
+    }
+    .menu-principal {
+        position: fixed;
+        /* VIEWPORT/JANELA */
+        top: 0;
+        left: -725px;
+        z-index: 1;
+        width: 75%;
+        height: 100%;
+        background: rgb(30, 28, 33, 0.9);
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+
+
+    }
 
 
 
 
-
-
-
+    
+ }  
 
 
 
@@ -547,13 +633,25 @@ body {
 
 
 /* midia desktop */
-@media screen and (min-width: 767px) {
+ @media screen and (min-width: 992px) {
     .menu-bars {
         display: none;
+        width: 45px;
+        color: white;
+        width: 35px;
     }
 
+   
+    .navbarShow {
+        left: 0 !important;
 
-}
+
+    }
+
+    
+
+
+} 
 
 
 
